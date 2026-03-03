@@ -1,0 +1,49 @@
+// ADAPTIVE MIXINS
+
+@mixin laptop-1500 {
+  @media screen and (max-width: 1500px) {
+    @content
+  }
+};
+
+@mixin laptop-1265 {
+  @media screen and (max-width: 1265px) {
+    @content
+  }
+};
+
+@mixin laptop-1000 {
+  @media screen and (max-width: 1000px) {
+    @content
+  }
+};
+
+@mixin tablet-850 {
+  @media screen and (max-width: 850px) {
+    @content
+  }
+};
+
+@mixin tablet-650 {
+  @media screen and (max-width: 650px) {
+    @content
+  }
+};
+
+@mixin tablet-550 {
+  @media screen and (max-width: 550px) {
+    @content
+  }
+};
+
+@mixin tablet-500 {
+  @media screen and (max-width: 500px) {
+    @content
+  }
+};
+
+@mixin phone-450 {
+  @media screen and (max-width: 450px) {
+    @content
+  }
+};
